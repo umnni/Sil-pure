@@ -1,0 +1,299 @@
+@import "tailwindcss";
+
+/* Deep Ocean (default theme) */
+/* :root,
+html[data-theme="ocean"] {
+  --c-032c46: #032c46;
+  --c-032d47: #032d47;
+  --c-052d44: #052d44;
+  --c-062f4f: #062f4f;
+  --c-063653: #063653;
+  --c-07324b: #07324b;
+  --c-073650: #073650;
+  --c-073653: #073653;
+  --c-073954: #073954;
+  --c-082f49: #082f49;
+  --c-083750: #083750;
+  --c-087ca7: #087ca7;
+  --c-0b668d: #0b668d;
+  --c-0b779d: #0b779d;
+  --c-102a43: #102a43;
+  --c-113e52: #113e52;
+  --c-123e52: #123e52;
+  --c-123e53: #123e53;
+  --c-143b4d: #143b4d;
+  --c-143e52: #143e52;
+  --c-173c4e: #173c4e;
+  --c-176989: #176989;
+  --c-183b4d: #183b4d;
+  --c-183e50: #183e50;
+  --c-1b7a9b: #1b7a9b;
+  --c-204a5c: #204a5c;
+  --c-244958: #244958;
+  --c-2c7a96: #2c7a96;
+  --c-42768b: #42768b;
+  --c-587482: #587482;
+  --c-5f7984: #5f7984;
+  --c-66838f: #66838f;
+  --c-69828d: #69828d;
+  --c-73929f: #73929f;
+  --c-748b95: #748b95;
+  --c-8299a3: #8299a3;
+  --c-8399a2: #8399a2;
+  --c-8ca3ad: #8ca3ad;
+  --c-93c6d8: #93c6d8;
+  --c-9aadb4: #9aadb4;
+  --c-9cc9da: #9cc9da;
+  --c-9ed0df: #9ed0df;
+  --c-c4a461: #c4a461;
+  --c-dbeef2: #dbeef2;
+  --c-dcecef: #dcecef;
+  --c-dceef3: #dceef3;
+  --c-deeaee: #deeaee;
+  --c-dfecef: #dfecef;
+  --c-e1ecef: #e1ecef;
+  --c-e2edf0: #e2edf0;
+  --c-e3ecef: #e3ecef;
+  --c-e5edef: #e5edef;
+  --c-e7f0f2: #e7f0f2;
+  --c-e7f2f5: #e7f2f5;
+  --c-e9f2f4: #e9f2f4;
+  --c-eaf4f7: #eaf4f7;
+  --c-edf2f4: #edf2f4;
+  --c-edf5f7: #edf5f7;
+  --c-eef5f7: #eef5f7;
+  --c-eef7f9: #eef7f9;
+  --c-f3f7f8: #f3f7f8;
+  --c-f4f9fa: #f4f9fa;
+  --c-f7fbfc: #f7fbfc;
+  --c-f8fcfd: #f8fcfd;
+  --c-ffffff: #ffffff;
+} */
+
+/* Sky Blue theme */
+/* html[data-theme="sky"] {
+  --c-032c46: #0097f2;
+  --c-032d47: #0099f2;
+  --c-052d44: #009bf2;
+  --c-062f4f: #0092f9;
+  --c-063653: #009ffb;
+  --c-07324b: #039df4;
+  --c-073650: #01a2f8;
+  --c-073653: #019efb;
+  --c-073954: #00a5fc;
+  --c-082f49: #0696f0;
+  --c-083750: #04a3f6;
+  --c-087ca7: #2ec3ff;
+  --c-0b668d: #20baff;
+  --c-0b779d: #2ac4ff;
+  --c-102a43: #2085d7;
+  --c-113e52: #1da5e4;
+  --c-123e52: #20a4e2;
+  --c-123e53: #20a3e2;
+  --c-143b4d: #26a0da;
+  --c-143e52: #25a1dd;
+  --c-173c4e: #2e9dd4;
+  --c-176989: #36b8ee;
+  --c-183b4d: #309bd1;
+  --c-183e50: #309ed4;
+  --c-1b7a9b: #42bfee;
+  --c-204a5c: #41a3ce;
+  --c-244958: #49a0c6;
+  --c-2c7a96: #5ab9dd;
+  --c-42768b: #74b0ca;
+  --c-587482: #8aabbb;
+  --c-5f7984: #91aeba;
+  --c-66838f: #97b3bf;
+  --c-69828d: #99b2bd;
+  --c-73929f: #9fbbc7;
+  --c-748b95: #a1b6c0;
+  --c-8299a3: #a9bec8;
+  --c-8399a2: #aabec7;
+  --c-8ca3ad: #afc4ce;
+  --c-93c6d8: #b0daea;
+  --c-9aadb4: #b8cad1;
+  --c-9cc9da: #b6dbea;
+  --c-9ed0df: #b7e0ee;
+  --c-c4a461: #c4a461;
+  --c-dbeef2: #ddf0f6;
+  --c-dcecef: #deeff3;
+  --c-dceef3: #ddf0f7;
+  --c-deeaee: #e0edf2;
+  --c-dfecef: #e1eff3;
+  --c-e1ecef: #e2eef2;
+  --c-e2edf0: #e3eff3;
+  --c-e3ecef: #e4eef2;
+  --c-e5edef: #e5eff2;
+  --c-e7f0f2: #e6f1f4;
+  --c-e7f2f5: #e5f2f7;
+  --c-e9f2f4: #e7f2f5;
+  --c-eaf4f7: #e6f3f8;
+  --c-edf2f4: #eaf1f4;
+  --c-edf5f7: #e9f4f7;
+  --c-eef5f7: #eaf4f7;
+  --c-eef7f9: #e9f5f9;
+  --c-f3f7f8: #eef4f6;
+  --c-f4f9fa: #ecf6f8;
+  --c-f7fbfc: #ebf6f9;
+  --c-f8fcfd: #eaf7fb;
+  --c-ffffff: #ffffff;
+} */
+
+:root {
+  /* Default Deep Ocean Blue + Light Sky Blue Theme */
+  --bg-primary: #0a2540;        /* Deep Ocean Blue */
+  --bg-secondary: #001e3d;      /* Darker Ocean Slate */
+  --ocean-hover: #0f3866;
+  --accent-sky: #38bdf8;        /* Light Sky Blue */
+  --accent-sky-hover: #7dd3fc;  /* Soft Sky Blue */
+  --text-main: #0f172a;
+  --text-light: #ffffff;
+  --text-sky: #0284c7;
+  --text-muted: #587482;
+  --surface-bg: #f0f9ff;        /* Ultra light sky tint */
+  --surface-soft: #eaf4f7;
+  --surface-muted: #dbeef2;
+  --border-color: #bae6fd;
+
+  --c-032c46: var(--bg-secondary);
+  --c-032d47: var(--bg-secondary);
+  --c-052d44: var(--bg-secondary);
+  --c-062f4f: var(--bg-secondary);
+  --c-063653: var(--bg-primary);
+  --c-07324b: var(--bg-primary);
+  --c-073650: var(--bg-primary);
+  --c-073653: var(--bg-primary);
+  --c-073954: var(--bg-secondary);
+  --c-082f49: var(--bg-primary);
+  --c-083750: var(--bg-secondary);
+  --c-087ca7: var(--accent-sky);
+  --c-0b668d: var(--text-sky);
+  --c-0b779d: var(--accent-sky);
+  --c-102a43: var(--text-main);
+  --c-113e52: var(--text-main);
+  --c-123e52: var(--text-main);
+  --c-123e53: var(--text-main);
+  --c-143b4d: var(--text-main);
+  --c-143e52: var(--text-main);
+  --c-173c4e: var(--text-main);
+  --c-176989: var(--text-sky);
+  --c-183b4d: var(--text-main);
+  --c-183e50: var(--text-main);
+  --c-1b7a9b: var(--text-sky);
+  --c-204a5c: var(--text-main);
+  --c-244958: var(--text-main);
+  --c-2c7a96: var(--text-sky);
+  --c-42768b: var(--text-muted);
+  --c-587482: var(--text-muted);
+  --c-5f7984: var(--text-muted);
+  --c-66838f: var(--text-muted);
+  --c-69828d: var(--text-muted);
+  --c-73929f: var(--text-muted);
+  --c-748b95: var(--text-muted);
+  --c-8299a3: var(--text-muted);
+  --c-8399a2: var(--text-muted);
+  --c-8ca3ad: var(--text-muted);
+  --c-93c6d8: var(--accent-sky-hover);
+  --c-9aadb4: var(--text-muted);
+  --c-9cc9da: var(--accent-sky-hover);
+  --c-9ed0df: var(--accent-sky-hover);
+  --c-c4a461: #c4a461;
+  --c-dbeef2: var(--surface-muted);
+  --c-dcecef: var(--surface-muted);
+  --c-dceef3: var(--surface-muted);
+  --c-deeaee: var(--surface-muted);
+  --c-dfecef: var(--border-color);
+  --c-e1ecef: var(--border-color);
+  --c-e2edf0: var(--border-color);
+  --c-e3ecef: var(--border-color);
+  --c-e5edef: var(--border-color);
+  --c-e7f0f2: var(--surface-soft);
+  --c-e7f2f5: var(--surface-soft);
+  --c-e9f2f4: var(--surface-soft);
+  --c-eaf4f7: var(--surface-soft);
+  --c-edf2f4: var(--surface-soft);
+  --c-edf5f7: var(--surface-soft);
+  --c-eef5f7: var(--surface-soft);
+  --c-eef7f9: var(--surface-soft);
+  --c-f3f7f8: var(--surface-bg);
+  --c-f4f9fa: var(--surface-bg);
+  --c-f7fbfc: var(--surface-bg);
+  --c-f8fcfd: var(--surface-bg);
+  --c-ffffff: #ffffff;
+}
+
+html[data-theme="sky"],
+body.sky-mode {
+  --bg-primary: #0284c7;
+  --bg-secondary: #0369a1;
+  --ocean-hover: #0369a1;
+  --accent-sky: #bae6fd;
+  --accent-sky-hover: #e0f2fe;
+  --text-main: #0c4a6e;
+  --text-light: #ffffff;
+  --text-sky: #38bdf8;
+  --text-muted: #0c4a6e;
+  --surface-bg: #f8fafc;
+  --surface-soft: #f1f5f9;
+  --surface-muted: #e0f2fe;
+  --border-color: #e2e8f0;
+}
+
+/* Global Elements (Structure unchanged) */
+body {
+  background-color: var(--surface-bg);
+  color: var(--text-main);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Buttons, navbar, and highlights */
+.btn-primary,
+button.theme-accent {
+  background-color: var(--bg-primary) !important;
+  color: var(--accent-sky) !important;
+  border: 1px solid var(--accent-sky) !important;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover,
+button.theme-accent:hover {
+  background-color: var(--accent-sky) !important;
+  color: var(--bg-primary) !important;
+  border-color: var(--ocean-hover) !important;
+}
+
+.site-header {
+  background-color: var(--surface-bg);
+  color: var(--text-main);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.highlight-text {
+  color: var(--text-sky);
+}
+
+.site-header a:hover {
+  color: var(--accent-sky-hover);
+}
+
+/* html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--c-ffffff);
+  color: var(--c-102a43);
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  transition: background-color 0.3s ease;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+} */
