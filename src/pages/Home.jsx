@@ -385,8 +385,8 @@ export default function Home() {
 
               <div className="absolute inset-0 bg-gradient-to-r from-[var(--c-032d47)]/65 via-[var(--c-073954)]/25 to-transparent" />
 
-              <div className="relative mx-auto flex min-h-[620px] max-w-[1500px] items-center px-5 sm:min-h-[720px] sm:px-8 lg:px-14">
-                <div className="max-w-xl text-white">
+              <div className="relative mx-auto flex min-h-[620px] max-w-[1500px] items-center px-5 pb-20 pt-8 sm:min-h-[720px] sm:px-8 sm:pb-28 sm:pt-10 lg:px-14">
+                <div className="max-w-xl -translate-y-8 text-white sm:-translate-y-10 lg:-translate-y-12">
                   <p className="mb-5 text-[10px] font-semibold tracking-[0.28em] sm:text-xs">
                     {item.eyebrow}
                   </p>
